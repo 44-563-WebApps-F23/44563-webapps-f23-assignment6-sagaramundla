@@ -44,8 +44,8 @@
             } else {
                 oops = oops + 1;
                 count = count + 1;
-                if (count > 7) {
-                    document.getElementById("display").onclick = guesses();
+                if (count == 7) {
+                    guesses();
 
                 }
                 alert('Sorry' + oops + count);
